@@ -32,9 +32,9 @@ return (
 
 
     <>
-    <input onChange={(e)=>setData(e.target.value)} type="text"/>
-    <input onChange={(e)=>setData1(e.target.value)} type="text"/>
-    <input onChange={(e)=>setdata2(e.target.value)} type="text"/>
+    <div style={{margin:"10px"}}><input onChange={(e)=>setData(e.target.value)} type="text"/></div>
+    <div><input onChange={(e)=>setData1(e.target.value)} type="text"/></div>
+    <div><input onChange={(e)=>setdata2(e.target.value)} type="text"/></div>
     <button onClick={Click}>Click Here</button>
     
     

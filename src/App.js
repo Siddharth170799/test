@@ -9,6 +9,7 @@ import SignUp from './signup';
 import Signin from './signin';
 import Fetch from './fetch';
 import Param from './para';
+import Header from './components/Header';
 
 
 function App() {
@@ -22,16 +23,17 @@ function App() {
     </Routes>
     </BrowserRouter> */}
     {/* <Project/> */}
-<BrowserRouter>
+{/* <BrowserRouter>
 <Routes>
   <Route path="/" element={<SignUp/>}/>
   <Route path="/signin" element={<Signin/>}/>
-  <Route path="/products" element={<Fetch/>}/>
-  <Route path="/products/:id" element={<Param/>}/>
+  <Route path="/products" element={<Sid/>}/>
+  <Route path="/products/:id" element={<Hello/>}/>
   
   </Routes>
-  </BrowserRouter>
+  </BrowserRouter> */}
     {/* <SignUp/> */}
+    <Header/>
     
     </>
   );

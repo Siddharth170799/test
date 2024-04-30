@@ -6,6 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/04/landscape-wallpaper-hd-backgrounds.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 code {
